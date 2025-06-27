@@ -26,3 +26,9 @@ The notebook demonstrates:
    ```bash
    git clone https://github.com/yourusername/datamining-project.git
    cd datamining-project
+python -m venv env
+source env/bin/activate  # or env\Scripts\activate on Windows
+
+pip install -r requirements.txt
+
+jupyter notebook
