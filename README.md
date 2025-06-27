@@ -1,34 +1,40 @@
 # Data Mining Project
 
-This repository contains a Jupyter Notebook (`DataMining.ipynb`) focused on applying key data mining techniques such as data preprocessing, exploratory data analysis (EDA), and machine learning for pattern discovery and prediction.
+This repository contains the `DataMining.ipynb` notebook which demonstrates the application of core data mining techniques including data preprocessing, visualization, and machine learning using Python.
 
 ## 📌 Project Overview
 
-The notebook demonstrates:
-- Loading and cleaning of raw datasets
-- Handling of missing values and outliers
-- Feature engineering and encoding
-- Data visualization and pattern discovery
-- Application of ML algorithms for classification and/or clustering
+- Data cleaning and preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Feature engineering and transformation  
+- Model training and evaluation using classification/clustering algorithms  
+- Insight generation through visual and statistical methods
 
 ## 🧠 Technologies & Libraries Used
 
-- Python 3.x
-- Pandas
-- NumPy
-- Matplotlib / Seaborn
-- Scikit-learn
-- Jupyter Notebook
+- Python 3.x  
+- Jupyter Notebook  
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+- scikit-learn  
 
-## ⚙️ How to Run
+## ⚙️ Setup & Usage Instructions
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/datamining-project.git
-   cd datamining-project
+Follow the steps below to run the notebook locally:
+
+```bash
+# Step 1: Create a virtual environment (optional but recommended)
 python -m venv env
-source env/bin/activate  # or env\Scripts\activate on Windows
 
+# Step 2: Activate the environment
+source env/bin/activate         # For Linux/macOS
+# OR
+env\Scripts\activate            # For Windows
+
+# Step 3: Install dependencies
 pip install -r requirements.txt
 
+# Step 4: Launch Jupyter Notebook
 jupyter notebook
